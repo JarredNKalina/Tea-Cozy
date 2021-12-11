@@ -6,12 +6,12 @@ body{
     background-color: black;
     opacity: 0.9;
     text-align: center;
-    margin: 0 auto;
+    margin: auto;
 }
 header{
     height: 69px;
     border-bottom:1px solid seashell;
-    position: fixed;
+    position: sticky;
     background-color: black;
     width: 100%;
     top: 0;
@@ -35,20 +35,64 @@ header p{
 
 .background-container{
     background-image: url(images/background.jpg);
-    background-position: center;
     height: 700px;
-    width:1200px;
+    width: 1200;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+  
 }
 .mission-container{
+    
+    background-color: black;
 
 }
+
+.tea-of-the-month-container{
+  width: 1000px;
+  display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+
+.box h4{
+    margin-top: 10px;
+
+}
+
 
 .locations-container{
     background-image: url(images/locations.jpg);
+    height: 500px;
+    width: 1200px;
+    margin: auto;  
 }
-.tea-of-the-month-img{
-    height:200px;
-    width:300px;
+.locations-container h2{
+    margin-bottom: 15px;
+}
+.smaller-locations-container{
     display: flex;
+    align-items: stretch;
+    justify-content: center;
+    
 
+}
+.sub-container{
+    background-color: black;
+    width: 300px;
+    opacity: 1;
+    margin-left:20px;
+    margin-right: 20px;
+}
+.contact-container{
+    height: 200px;
+}
+.footer{
+    text-align: left;
+    margin-left: 20px;
 }
